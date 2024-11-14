@@ -4,19 +4,18 @@ const toggleArrowFeature=document.getElementById("feature-arrow");
 
 const dropdownbtnCompany=document.getElementById("company-dropdown-btn");
 const dropdownMenuCompany=document.getElementById("company-dropdown");
-const toggleArrowCompany=document.getElementById("comapny-arrow");
+const toggleArrowCompany=document.getElementById("company-arrow");
 
 const toggleDropdownFeature = function () {
     dropdownMenuFeature.classList.toggle("show-feature");
-    toggleArrowFeature.classList.toggle("arrow-feature");
+    toggleArrowFeature.classList.toggle("feature-arrow");
  
 };
 const toggleDropdownCompany = function () {
     dropdownMenuCompany.classList.toggle("show-company");
-    toggleArrowCompany.classList.toggle("arrow-company");
+    toggleArrowCompany.classList.toggle("company-arrow");
  
 };
-
 
 dropdownbtnFeature.addEventListener("click",function (e){
     e.stopPropagation();
